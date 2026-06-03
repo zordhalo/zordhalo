@@ -24,7 +24,6 @@ Building software until it ships.
 | Project | Description |
 |---------|-------------|
 | [Advance Labs Inc.](https://advancelabs.dev) | The studio — we build and ship software products |
-| [Creatin](https://www.creatin.ca) | Brand-creator marketplace |
 | [Cartrix](https://www.cartrix.live) | Checkout automation |
 | [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) | OSS AI search optimization suite |
 
