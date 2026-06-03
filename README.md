@@ -1,3 +1,4 @@
+```
 ⠀⠀⠀⠀⢀⡠⣾⣳⡀⠀⠀⠀⠀⠀
 ⠀⠀⡀⠀⠚⢿⣿⣿⡿⠙⠀⠀⠀⠀
 ⠀⣘⣿⣇⡀⢘⣿⣿⠀⢀⣠⣶⡀⠀
@@ -8,6 +9,7 @@
 ⠀⠀⠀⠀⠀⢸⣿⡿⡄⠀⠀⠀⠀⠀
 ⠀⠀⠀⠠⣖⣿⣿⣻⡷⡄⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠈⢻⡟⠁⠀⠀⠀⠀⠀
+```
 
 # Lucas Krawczak
 
@@ -25,19 +27,6 @@ Building software until it ships.
 | [Creatin](https://www.creatin.ca) | Brand-creator marketplace |
 | [Cartrix](https://www.cartrix.live) | Checkout automation |
 | [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) | OSS AI search optimization suite |
-
----
-
-## Tech Stack
-
-Next.js · TypeScript · Python · Electron · Supabase · Vercel
-
----
-
-## Stats
-
-![GitHub Stats](https://img.shields.io/github/followers/zordhalo?label=Followers&style=flat-square&logo=github)
-![Advance Labs](https://img.shields.io/badge/Advance%20Labs-advancelabs.dev-blue?style=flat-square)
 
 ---
 
