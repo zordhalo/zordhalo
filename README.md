@@ -1,27 +1,36 @@
-```
-⠀⠀⠀⠀⢀⡠⣾⣳⡀⠀⠀⠀⠀⠀
-⠀⠀⡀⠀⠚⢿⣿⣿⡿⠙⠀⠀⠀⠀
-⠀⣘⣿⣇⡀⢘⣿⣿⠀⢀⣠⣶⡀⠀
-⠺⣿⣷⣝⣾⣿⣿⣿⣿⣿⣹⣷⣿⠆
-⠀⠘⠟⠁⠀⠀⣿⣟⠀⠀⠙⠿⠁⠀
-⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢠⣿⣿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢸⣿⡿⡄⠀⠀⠀⠀⠀
-⠀⠀⠀⠠⣖⣿⣿⣻⡷⡄⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⢻⡟⠁⠀⠀⠀⠀⠀
-```
+# Lucas Krawczak
 
-<!--
-**zordhalo/zordhalo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Co-founder @ [Advance Labs Inc.](https://advancelabs.dev)**
 
-Here are some ideas to get you started:
+Building software until it ships.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## What I'm Building
+
+| Project | Description |
+|---------|-------------|
+| [Advance Labs Inc.](https://advancelabs.dev) | The studio — we build and ship software products |
+| [Creatin](https://www.creatin.ca) | Brand-creator marketplace |
+| [Cartrix](https://www.cartrix.live) | Checkout automation |
+| [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) | OSS AI search optimization suite |
+
+---
+
+## Tech Stack
+
+Next.js · TypeScript · Python · Electron · Supabase · Vercel
+
+---
+
+## Stats
+
+![GitHub Stats](https://img.shields.io/github/followers/zordhalo?label=Followers&style=flat-square&logo=github)
+![Advance Labs](https://img.shields.io/badge/Advance%20Labs-advancelabs.dev-blue?style=flat-square)
+
+---
+
+## Connect
+
+- **Studio:** [advancelabs.dev](https://advancelabs.dev)
+- **GitHub Org:** [Advance-Labs](https://github.com/Advance-Labs)
