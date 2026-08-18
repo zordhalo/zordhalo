@@ -26,9 +26,13 @@
 
 ## Autonomous flight
 
+### [urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy) · open source
+
 Sim-first autonomy for a small multirotor. The stack is pure Python behind a
 `VehicleBackend` seam, so the same mission code runs against a kinematic sim, PX4
 SITL, and a Pixhawk without changing the autonomy layer.
+
+**275 tests · no runtime dependencies · verified against PX4 SITL · Apache-2.0**
 
 ### ✈︎ [drone.advancelabs.dev](https://drone.advancelabs.dev) — fly it in your browser
 
@@ -38,12 +42,10 @@ one the simulator produced, so there is no marketing copy to drift out of sync.
 | Environment | Buildings | Tallest | What it exercises |
 |---|---|---|---|
 | Test grid | 25 | 54 m | Moving traffic, replanning on invalidation |
-| Hillcrest Village | 273 | 9 m | 5 m AGL, threading under distribution wire |
+| Princess Anne Manor | 308 | 48 m | 5 m AGL, threading under distribution wire |
 | Scarborough | 115 | 125 m | Car and pedestrian as legal keep-out volumes |
 | North York Centre | 182 | 134 m | Surveillance with real occlusion |
 | Downtown Toronto | 161 | **292 m** | Towers exceed the ceiling — route around, not over |
-
-**275 tests green · verified against PX4 SITL · zero dependencies to run**
 
 <details>
 <summary><b>Four findings that changed the hardware design</b></summary>
