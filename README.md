@@ -13,7 +13,7 @@
 
 # Lucas Krawczak
 
-**Co-founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)** — a Canadian software studio, with my brother [@SpookYlonMuh](https://github.com/SpookYlonMuh)
+**Co-founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, a Canadian software studio I run with my brother [@SpookYlonMuh](https://github.com/SpookYlonMuh)
 
 *Building software until it ships.*
 
@@ -34,7 +34,7 @@ SITL, and a Pixhawk without changing the autonomy layer.
 
 **275 tests · no runtime dependencies · verified against PX4 SITL · Apache-2.0**
 
-### ✈︎ [drone.advancelabs.dev](https://drone.advancelabs.dev) — fly it in your browser
+### ✈︎ [drone.advancelabs.dev](https://drone.advancelabs.dev): fly it in your browser
 
 Five environments built from real OpenStreetMap data. Every number on that page is
 one the simulator produced, so there is no marketing copy to drift out of sync.
@@ -45,7 +45,7 @@ one the simulator produced, so there is no marketing copy to drift out of sync.
 | Princess Anne Manor | 308 | 48 m | 5 m AGL, threading under distribution wire |
 | Scarborough | 115 | 125 m | Car and pedestrian as legal keep-out volumes |
 | North York Centre | 182 | 134 m | Surveillance with real occlusion |
-| Downtown Toronto | 161 | **292 m** | Towers exceed the ceiling — route around, not over |
+| Downtown Toronto | 161 | **292 m** | Towers exceed the ceiling, so it routes around, not over |
 
 <details>
 <summary><b>Four findings that changed the hardware design</b></summary>
@@ -58,7 +58,7 @@ resolution of any lidar in budget, which caps safe speed near powerlines at
 
 **But a camera can infer them.** Poles are trivially detectable where wires are not.
 The system detects poles, works out which are connected, and avoids the inferred
-catenary — 100% recall with zero wire detections. Flight geometry matters more than
+catenary. That gets 100% recall with zero wire detections. Flight geometry matters more than
 the sensor: one forward camera suffices if you fly a lateral sweep first.
 
 **People are a regulatory volume, not an obstacle.** A pedestrian's legal keep-out is
@@ -70,8 +70,8 @@ to *avoid* a wire run; threading one needs a survey.
 
 </details>
 
-The airframe is a Holybro X500 V2 with a parametric OpenSCAD payload stack —
-Pi 5 tray, payload deck, battery tray, GNSS mast, nav-light pods — designed around a
+The airframe is a Holybro X500 V2 with a parametric OpenSCAD payload stack (Pi 5
+tray, payload deck, battery tray, GNSS mast, nav-light pods), designed around a
 low-light STARVIS camera. Transport Canada RPAS rules shape the design more than any
 technical preference does: "autonomous" in Canadian airspace means *pilot-supervised*
 autonomy, with a human able to take control at all times.
@@ -82,7 +82,7 @@ autonomy, with a human able to take control at all times.
 
 ### [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) · open source
 
-A TypeScript monorepo that scores a site the way an AI assistant reads it — crawl →
+A TypeScript monorepo that scores a site the way an AI assistant reads it: crawl →
 parse → score, plus MCP servers and content agents.
 
 **16 packages · 794 passing tests · a 54-rule scoring engine**
@@ -94,7 +94,7 @@ parse → score, plus MCP servers and content agents.
 | Technical SEO | 29 | Crawlability, sitemap coverage & freshness, redirect integrity, canonical validity, structured data, internal linking |
 
 Scores are cross-checked against live answers from ChatGPT, Google AI Overviews,
-Perplexity, and Claude — so the number is a measurement you can re-run after fixes,
+Perplexity, and Claude, so the number is a measurement you can re-run after fixes,
 not an opinion. It is also the engine behind the studio's
 [AI-visibility audits](https://advancelabs.dev/services/aeo-audit).
 
@@ -117,11 +117,11 @@ We build and ship our own products, and take on fixed-scope client work.
 | | |
 |---|---|
 | [Dialed](https://dialed.advancelabs.dev) | Done-for-you AI phone agents for local business. Answers the line 24/7, handles questions, books appointments, transfers to a human. Live demo line on the site. |
-| [Cartrix](https://www.cartrix.live) | Checkout at scale — parallel multi-account purchase automation for limited-release products. |
+| [Cartrix](https://www.cartrix.live) | Checkout at scale: parallel multi-account purchase automation for limited-release products. |
 | BuildCode | AI building-code copilot for Ontario trades. Plain-English answers with the exact cited OBC/OESC section, built with [Kuzyn Builds](https://github.com/Kuzyn-Builds). |
 | [runs-on.dev](https://runs-on.dev) | Free subdomain registry. Claim `<name>.runs-on.dev` in seconds with a GitHub account and get a profile card, then point it at your own hosting with a pull request against the [public registry](https://github.com/zordhalo/runs-on.dev). A public repo is the database and one wildcard DNS record covers every claimed name, so claiming one is a git commit, not a DNS write. |
 
-**Client work** — [Kuzyn Builds](https://kuzynbuilds.com) (London, ON custom home
+**Client work:** [Kuzyn Builds](https://kuzynbuilds.com) (London, ON custom home
 builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.nextleaf.co/)
 (Toronto printing & embroidery: storefront redesign). Case studies at
 [advancelabs.dev/work](https://advancelabs.dev/work).
@@ -132,8 +132,8 @@ builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.n
 
 ### [Quantum Hybrid Research](https://github.com/Advance-Labs/quantum-hybrid-research) · open
 
-Three honest feasibility studies on quantum × classical — including *can quantum
-accelerate LLM training?* — plus a 228-test emulator. **Every claim is tagged by its
+Three honest feasibility studies on quantum × classical, including *can quantum
+accelerate LLM training?*, plus a 228-test emulator. **Every claim is tagged by its
 evidence class**, so a proven result and a speculative one never read the same.
 
 Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev).
@@ -144,8 +144,8 @@ Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev).
 
 | | |
 |---|---|
-| [whoopsie-protocol](https://github.com/zordhalo/whoopsie-protocol) | Reverse-engineered the WHOOP 4.0 BLE protocol — documentation and a reference implementation. Paired with a [FastAPI backend](https://github.com/zordhalo/whoopsie-backend) for metrics ingestion, because I wanted my own biometrics out of someone else's app. |
-| [agent-handoff-protocol](https://github.com/zordhalo/agent-handoff-protocol) | Durable agent sessions — serialize, transfer, and meter a running agent's state across compute hosts. MCP server + Neon + Next.js. |
+| [whoopsie-protocol](https://github.com/zordhalo/whoopsie-protocol) | Reverse-engineered the WHOOP 4.0 BLE protocol: documentation and a reference implementation. Paired with a [FastAPI backend](https://github.com/zordhalo/whoopsie-backend) for metrics ingestion, because I wanted my own biometrics out of someone else's app. |
+| [agent-handoff-protocol](https://github.com/zordhalo/agent-handoff-protocol) | Durable agent sessions: serialize, transfer, and meter a running agent's state across compute hosts. MCP server + Neon + Next.js. |
 | [lontario](https://github.com/zordhalo/lontario) | Open-source AI-powered hiring platform. |
 | [athena-weather-mcp](https://github.com/zordhalo/athena-weather-mcp) | An MCP agent that explores weather alerts and forecasts through an embedded interactive widget (NWS + Open-Meteo). |
 | [75-day-tracker](https://github.com/zordhalo/75-day-tracker) | 75 Hard tracker with habit logging, progress visualization, and PWA support. I built it because I was doing the challenge. |
