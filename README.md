@@ -24,20 +24,35 @@
 
 ---
 
+## Free subdomains
+
+### [runs-on.dev](https://runs-on.dev) · open source · [registry](https://github.com/zordhalo/runs-on.dev)
+
+Claim `yourname.runs-on.dev` in about twenty seconds with a GitHub account. It's live
+immediately over HTTPS, and you point it at your own hosting with a pull request.
+
+A real TLD means an ICANN application, and the 2026 round wanted $227,000 per application
+before you've run anything. This gets the same custom-ending feel for about $10 a year.
+The public repo is the database, so every claim is a commit anyone can read, and one
+wildcard DNS record covers every name at once. Claiming is a git write, not a DNS write.
+
+**MIT · 73 tests · one name per account · not a TLD, and I don't pretend it is**
+
+---
+
 ## Autonomous flight
 
-### [urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy) · open source
+### [urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy) · open source · ✈︎ [fly it in your browser](https://drone.advancelabs.dev)
 
 Sim-first autonomy for a small multirotor I built. The stack is pure Python behind a
 `VehicleBackend` seam, so the same mission code runs against a kinematic sim, PX4
 SITL, and a Pixhawk without changing the autonomy layer.
 
+I built five environments from real OpenStreetMap data and put the simulator on the web,
+so you can fly it yourself. Every number below is one the simulator produced, so there's
+no marketing copy to drift out of sync.
+
 **275 tests · no runtime dependencies · verified against PX4 SITL · Apache-2.0**
-
-### ✈︎ [drone.advancelabs.dev](https://drone.advancelabs.dev): fly it in your browser
-
-I built five environments from real OpenStreetMap data. Every number on that page is
-one the simulator produced, so there's no marketing copy to drift out of sync.
 
 | Environment | Buildings | Tallest | What it exercises |
 |---|---|---|---|
@@ -119,7 +134,6 @@ We build and ship our own products, and take on fixed-scope client work.
 | [Dialed](https://dialed.advancelabs.dev) | Done-for-you AI phone agents for local business. Answers the line 24/7, handles questions, books appointments, transfers to a human. Live demo line on the site. |
 | [Cartrix](https://www.cartrix.live) | Checkout at scale: parallel multi-account purchase automation for limited-release products. |
 | BuildCode | AI building-code copilot for Ontario trades. Plain-English answers with the exact cited OBC/OESC section, built with [Kuzyn Builds](https://github.com/Kuzyn-Builds). |
-| [runs-on.dev](https://runs-on.dev) | Free subdomain registry. Claim `<name>.runs-on.dev` in seconds with a GitHub account and get a profile card, then point it at your own hosting with a pull request against the [public registry](https://github.com/zordhalo/runs-on.dev). A public repo is the database and one wildcard DNS record covers every claimed name, so claiming one is a git commit, not a DNS write. |
 
 **Client work:** [Kuzyn Builds](https://kuzynbuilds.com) (London, ON custom home
 builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.nextleaf.co/)
