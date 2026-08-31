@@ -119,6 +119,7 @@ We build and ship our own products, and take on fixed-scope client work.
 | [Dialed](https://dialed.advancelabs.dev) | Done-for-you AI phone agents for local business. Answers the line 24/7, handles questions, books appointments, transfers to a human. Live demo line on the site. |
 | [Cartrix](https://www.cartrix.live) | Checkout at scale — parallel multi-account purchase automation for limited-release products. |
 | BuildCode | AI building-code copilot for Ontario trades. Plain-English answers with the exact cited OBC/OESC section, built with [Kuzyn Builds](https://github.com/Kuzyn-Builds). |
+| [runs-on.dev](https://runs-on.dev) | Free subdomain registry. Claim `<name>.runs-on.dev` in seconds with a GitHub account and get a profile card, then point it at your own hosting with a pull request against the [public registry](https://github.com/zordhalo/runs-on.dev). A public repo is the database and one wildcard DNS record covers every claimed name, so claiming one is a git commit, not a DNS write. |
 
 **Client work** — [Kuzyn Builds](https://kuzynbuilds.com) (London, ON custom home
 builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.nextleaf.co/)
