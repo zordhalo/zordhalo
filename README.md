@@ -15,7 +15,7 @@
 
 **Co-founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, a Canadian software studio I run with my brother [@SpookYlonMuh](https://github.com/SpookYlonMuh)
 
-*Building software until it ships.*
+*We build shit until it works.*
 
 [![Studio](https://img.shields.io/badge/advancelabs.dev-0B0B0B?style=flat-square&logo=vercel&logoColor=white)](https://advancelabs.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucaskrawczak/)
@@ -28,7 +28,7 @@
 
 ### [urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy) · open source
 
-Sim-first autonomy for a small multirotor. The stack is pure Python behind a
+Sim-first autonomy for a small multirotor I built. The stack is pure Python behind a
 `VehicleBackend` seam, so the same mission code runs against a kinematic sim, PX4
 SITL, and a Pixhawk without changing the autonomy layer.
 
@@ -36,8 +36,8 @@ SITL, and a Pixhawk without changing the autonomy layer.
 
 ### ✈︎ [drone.advancelabs.dev](https://drone.advancelabs.dev): fly it in your browser
 
-Five environments built from real OpenStreetMap data. Every number on that page is
-one the simulator produced, so there is no marketing copy to drift out of sync.
+I built five environments from real OpenStreetMap data. Every number on that page is
+one the simulator produced, so there's no marketing copy to drift out of sync.
 
 | Environment | Buildings | Tallest | What it exercises |
 |---|---|---|---|
@@ -52,7 +52,7 @@ one the simulator produced, so there is no marketing copy to drift out of sync.
 
 <br>
 
-**Lidar cannot see wires affordably.** A 12 mm conductor sits below the angular
+**Lidar can't see wires affordably.** A 12 mm conductor sits below the angular
 resolution of any lidar in budget, which caps safe speed near powerlines at
 3.5–5.5 m/s.
 
@@ -64,7 +64,7 @@ the sensor: one forward camera suffices if you fly a lateral sweep first.
 **People are a regulatory volume, not an obstacle.** A pedestrian's legal keep-out is
 ~100× their body size and asymmetric, because overflight is separately prohibited.
 
-**An inferred map cannot thread a corridor.** It needs 7–10 m of standoff to cover its
+**An inferred map can't thread a corridor.** It needs 7–10 m of standoff to cover its
 own triangulation error, and at 7 m a residential corridor closes entirely. Good enough
 to *avoid* a wire run; threading one needs a survey.
 
@@ -82,8 +82,8 @@ autonomy, with a human able to take control at all times.
 
 ### [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) · open source
 
-A TypeScript monorepo that scores a site the way an AI assistant reads it: crawl →
-parse → score, plus MCP servers and content agents.
+A TypeScript monorepo I built that scores a site the way an AI assistant reads it:
+crawl → parse → score, plus MCP servers and content agents.
 
 **16 packages · 794 passing tests · a 54-rule scoring engine**
 
@@ -95,7 +95,7 @@ parse → score, plus MCP servers and content agents.
 
 Scores are cross-checked against live answers from ChatGPT, Google AI Overviews,
 Perplexity, and Claude, so the number is a measurement you can re-run after fixes,
-not an opinion. It is also the engine behind the studio's
+not an opinion. It's also the engine behind the studio's
 [AI-visibility audits](https://advancelabs.dev/services/aeo-audit).
 
 ---
