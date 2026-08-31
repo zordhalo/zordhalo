@@ -204,3 +204,4 @@ Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev).
 | **LinkedIn** | [in/lucaskrawczak](https://www.linkedin.com/in/lucaskrawczak/) |
 | **Reddit** | [u/xzordhalox](https://www.reddit.com/user/xzordhalox) |
 | **X** | [@xzordhalox](https://x.com/xzordhalox) |
+| **Short address** | [zordhalo.is-a.dev](https://zordhalo.is-a.dev) |
