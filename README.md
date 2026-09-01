@@ -115,6 +115,32 @@ not an opinion. It's also the engine behind the studio's
 
 ---
 
+## Contributing upstream
+
+### [Pane](https://github.com/dcouple/Pane) · open source · [runpane.com](https://runpane.com/)
+
+A terminal-first agent IDE for running several coding agents in parallel. I run it every
+day, so the two things I sent upstream are the two that were costing me something.
+
+**[#572](https://github.com/dcouple/Pane/pull/572) — switching panes.** The "Open" launcher
+flashed where the terminal had been on the first visit to every pane, because the stage guard
+read *layout hasn't loaded yet* and *layout doesn't exist* as the same state. Then the terminal
+that arrived sat behind an activation mask held open by two fixed delays that were standing in
+for conditions nobody had written down. Replacing the delays with the conditions themselves,
+and letting the activation backstop repaint instead of destructively resetting when it has
+nothing to repair, took per-pane activation from **675 ms to 332 ms**.
+
+**[#573](https://github.com/dcouple/Pane/pull/573) — renaming panes.** The IPC handler and the
+edit-state handlers already existed and were exported; no component ever rendered them. Adding
+the inline sidebar UI surfaced a pre-existing store bug: a main-repo session is stored twice,
+and `updateSession` returned early after updating the first copy, so the sidebar went stale on
+*any* `session:updated` for that pane, not just renames. Both fixed, with a Playwright test
+that I confirmed fails without the store fix.
+
+**852 lines across two pull requests · timings measured on the real Electron app, not a benchmark**
+
+---
+
 ## Advance Labs
 
 An independent Canadian software studio, federally incorporated under the CBCA.
