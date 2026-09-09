@@ -100,7 +100,7 @@ autonomy, with a human able to take control at all times.
 A TypeScript monorepo I built that scores a site the way an AI assistant reads it:
 crawl → parse → score, plus MCP servers and content agents.
 
-**16 packages · 794 passing tests · a 54-rule scoring engine**
+**16 packages · 867 passing tests · a 54-rule scoring engine**
 
 | Rule family | Count | Measures |
 |---|---|---|
@@ -112,6 +112,21 @@ Scores are cross-checked against live answers from ChatGPT, Google AI Overviews,
 Perplexity, and Claude, so the number is a measurement you can re-run after fixes,
 not an opinion. It's also the engine behind the studio's
 [AI-visibility audits](https://advancelabs.dev/services/aeo-audit).
+
+### [AEO/GEO Auditor](https://chromewebstore.google.com/detail/aeogeo-auditor/bdkkjpbipgolopjhndknigaaokdabnad) · on the Chrome Web Store · [about](https://advancelabs.dev/tools/aeo-auditor)
+
+The same engine on your toolbar. Open any page, click the icon, get a 0–100
+AI-readiness score with a letter grade and a list of what to fix. Export it as a PDF.
+
+It runs 40 of the 54 rules: the 29 technical-SEO and 11 AEO ones. The 14 E-E-A-T
+signals need a whole-site crawl, so they stay in the hosted audit rather than
+pretending to work from one tab.
+
+Nothing leaves the browser. No account, no server, no analytics, no telemetry. The
+only requests it makes are to the audited site's own `robots.txt`, `sitemap.xml`
+and `llms.txt`, which is what the host permission is for.
+
+**Free · Apache-2.0 · 40 checks across 9 categories · client-side, so nothing to trust me about**
 
 ---
 
