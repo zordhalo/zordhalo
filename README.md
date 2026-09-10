@@ -13,7 +13,7 @@
 
 # Lucas Krawczak
 
-**Co-founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, a Canadian software studio I run with my brother [@SpookYlonMuh](https://github.com/SpookYlonMuh)
+**Founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, a Canadian software studio. My brother [@SpookYlonMuh](https://github.com/SpookYlonMuh) heads game development.
 
 *We build shit until it works.*
 
