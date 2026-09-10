@@ -36,7 +36,52 @@ before you've run anything. This gets the same custom-ending feel for about $10 
 The public repo is the database, so every claim is a commit anyone can read, and one
 wildcard DNS record covers every name at once. Claiming is a git write, not a DNS write.
 
-**MIT · 73 tests · one name per account · not a TLD, and I don't pretend it is**
+572 names are claimed so far, by 572 distinct GitHub accounts, because the limit is one
+name per account and the registry enforces it on the way in.
+
+**AGPL-3.0 · 313 tests · one name per account · not a TLD, and I don't pretend it is**
+
+---
+
+## Answer-engine optimization
+
+### [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) · open source
+
+A TypeScript monorepo I built that scores a site the way an AI assistant reads it:
+crawl → parse → score, plus MCP servers and content agents.
+
+Five of the tools run free in the browser at
+[advancelabs.dev/tools](https://advancelabs.dev/tools) with no sign-up: the technical
+SEO and AEO audit, an E-E-A-T scanner, an `llms.txt` generator, a GA4 and GSC chat, and
+a 3D backlink graph.
+
+**17 packages · 988 passing tests · a 54-rule scoring engine · Apache-2.0**
+
+| Rule family | Count | Measures |
+|---|---|---|
+| AEO | 11 | Entity identity & consistency, `sameAs`, extractable answers, citable proof, FAQ/HowTo structure |
+| E-E-A-T | 14 | Experience, expertise, authoritativeness, trust |
+| Technical SEO | 29 | Crawlability, sitemap coverage & freshness, redirect integrity, canonical validity, structured data, internal linking |
+
+Scores are cross-checked against live answers from ChatGPT, Google AI Overviews,
+Perplexity, and Claude, so the number is a measurement you can re-run after fixes,
+not an opinion. It's also the engine behind the studio's
+[AI-visibility audits](https://advancelabs.dev/services/aeo-audit).
+
+### [AEO/GEO Auditor](https://chromewebstore.google.com/detail/aeogeo-auditor/bdkkjpbipgolopjhndknigaaokdabnad) · on the Chrome Web Store · [about](https://advancelabs.dev/tools/aeo-auditor)
+
+The same engine on your toolbar. Open any page, click the icon, get a 0–100
+AI-readiness score with a letter grade and a list of what to fix. Export it as a PDF.
+
+It runs 40 of the 54 rules: the 29 technical-SEO and 11 AEO ones. The 14 E-E-A-T
+signals need a whole-site crawl, so they stay in the hosted audit rather than
+pretending to work from one tab.
+
+Nothing leaves the browser. No account, no server, no analytics, no telemetry. The
+only requests it makes are to the audited site's own `robots.txt`, `sitemap.xml`
+and `llms.txt`, which is what the host permission is for.
+
+**Free · Apache-2.0 · 40 checks across 9 categories · client-side, so nothing to trust me about**
 
 ---
 
@@ -93,43 +138,6 @@ autonomy, with a human able to take control at all times.
 
 ---
 
-## Answer-engine optimization
-
-### [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) · open source
-
-A TypeScript monorepo I built that scores a site the way an AI assistant reads it:
-crawl → parse → score, plus MCP servers and content agents.
-
-**16 packages · 867 passing tests · a 54-rule scoring engine**
-
-| Rule family | Count | Measures |
-|---|---|---|
-| AEO | 11 | Entity identity & consistency, `sameAs`, extractable answers, citable proof, FAQ/HowTo structure |
-| E-E-A-T | 14 | Experience, expertise, authoritativeness, trust |
-| Technical SEO | 29 | Crawlability, sitemap coverage & freshness, redirect integrity, canonical validity, structured data, internal linking |
-
-Scores are cross-checked against live answers from ChatGPT, Google AI Overviews,
-Perplexity, and Claude, so the number is a measurement you can re-run after fixes,
-not an opinion. It's also the engine behind the studio's
-[AI-visibility audits](https://advancelabs.dev/services/aeo-audit).
-
-### [AEO/GEO Auditor](https://chromewebstore.google.com/detail/aeogeo-auditor/bdkkjpbipgolopjhndknigaaokdabnad) · on the Chrome Web Store · [about](https://advancelabs.dev/tools/aeo-auditor)
-
-The same engine on your toolbar. Open any page, click the icon, get a 0–100
-AI-readiness score with a letter grade and a list of what to fix. Export it as a PDF.
-
-It runs 40 of the 54 rules: the 29 technical-SEO and 11 AEO ones. The 14 E-E-A-T
-signals need a whole-site crawl, so they stay in the hosted audit rather than
-pretending to work from one tab.
-
-Nothing leaves the browser. No account, no server, no analytics, no telemetry. The
-only requests it makes are to the audited site's own `robots.txt`, `sitemap.xml`
-and `llms.txt`, which is what the host permission is for.
-
-**Free · Apache-2.0 · 40 checks across 9 categories · client-side, so nothing to trust me about**
-
----
-
 ## Contributing upstream
 
 ### [Pane](https://github.com/dcouple/Pane) · open source · [runpane.com](https://runpane.com/)
@@ -183,15 +191,13 @@ builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.n
 
 ---
 
-## Research
+## Also in the lab
 
-### [Quantum Hybrid Research](https://github.com/Advance-Labs/quantum-hybrid-research) · open
+Real, public, and honest about where it stands. Not what I'd lead with.
 
-Three honest feasibility studies on quantum × classical, including *can quantum
-accelerate LLM training?*, plus a 228-test emulator. **Every claim is tagged by its
-evidence class**, so a proven result and a speculative one never read the same.
-
-Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev).
+| | |
+|---|---|
+| [quantum-hybrid-research](https://github.com/Advance-Labs/quantum-hybrid-research) | Three feasibility studies on quantum × classical, including *can quantum accelerate LLM training?*, plus a 228-test emulator. Every claim carries an evidence-class tag, so a proven result and a speculative one never read the same. MIT. Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev). |
 
 ---
 
