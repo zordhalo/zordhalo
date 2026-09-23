@@ -1,5 +1,6 @@
-```
-⠀⠀⠀⠀⢀⡠⣾⣳⡀⠀⠀⠀⠀⠀
+<table>
+<tr>
+<td valign="middle"><pre><sub>⠀⠀⠀⠀⢀⡠⣾⣳⡀⠀⠀⠀⠀⠀
 ⠀⠀⡀⠀⠚⢿⣿⣿⡿⠙⠀⠀⠀⠀
 ⠀⣘⣿⣇⡀⢘⣿⣿⠀⢀⣠⣶⡀⠀
 ⠺⣿⣷⣝⣾⣿⣿⣿⣿⣿⣹⣷⣿⠆
@@ -8,269 +9,62 @@
 ⠀⠀⠀⠀⠀⢠⣿⣿⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢸⣿⡿⡄⠀⠀⠀⠀⠀
 ⠀⠀⠀⠠⣖⣿⣿⣻⡷⡄⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⢻⡟⠁⠀⠀⠀⠀⠀
-```
+⠀⠀⠀⠀⠀⠈⢻⡟⠁⠀⠀⠀⠀⠀</sub></pre></td>
+<td valign="middle">
 
-# Lucas Krawczak
+### Lucas Krawczak
 
-**Founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, an independent lab in Ontario building open-source software for the agent era. My brother [@SpookYlonMuh](https://github.com/SpookYlonMuh) heads game development.
+I run **[Advance Labs](https://advancelabs.dev)**. I came to Canada from a military boarding
+school in Poland, and now I build open-source software that developers and AI agents
+actually use. *We build shit until it works.*
 
-*We build shit until it works.*
-
-[![Studio](https://img.shields.io/badge/advancelabs.dev-0B0B0B?style=flat-square&logo=vercel&logoColor=white)](https://advancelabs.dev)
+[![advancelabs.dev](https://img.shields.io/badge/advancelabs.dev-0A0A0B?style=flat-square)](https://advancelabs.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucaskrawczak/)
-[![Reddit](https://img.shields.io/badge/u%2Fxzordhalox-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/xzordhalox)
 [![X](https://img.shields.io/badge/@xzordhalox-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/xzordhalox)
+[![Reddit](https://img.shields.io/badge/u%2Fxzordhalox-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/xzordhalox)
 
----
+</td>
+</tr>
+</table>
 
-## Parallel coding agents
+## What I'm building
 
-### [Ninebrains](https://github.com/Advance-Labs/ninebrains) · open source · [ninebrains.runs-on.dev](https://ninebrains.runs-on.dev)
+**[Ninebrains](https://github.com/Advance-Labs/ninebrains)** · desktop app for running several
+Claude Code and Codex agents at once, each in its own git worktree, with gates that prove the
+work before it counts as done.<br>
+<sub>Apache-2.0 · macOS, Windows, Linux · [ninebrains.runs-on.dev](https://ninebrains.runs-on.dev)</sub>
 
-A desktop app for running several Claude Code and Codex agents at once. Every agent gets a
-lane of its own (its own git worktree, branch, terminal, editor and browser), so four of
-them can work one repository without stepping on each other's files. A central Brain holds
-the plan as a graph of jobs and hands ready work to whichever lane is idle.
+**[runs-on.dev](https://github.com/zordhalo/runs-on.dev)** · free `yourname.runs-on.dev`
+subdomains for developers. The public repo is the registry, so every claim is a commit anyone
+can read.<br>
+<sub>AGPL-3.0 · 1,200+ names claimed · 432 tests · [runs-on.dev](https://runs-on.dev)</sub>
 
-Nothing counts as done on an agent's say-so: verification gates (tests, a screenshot check,
-a read-only reviewer) run first, and a failed gate sends the lane back with feedback. It's
-a fork of Emdash, and it runs your own logged-in `claude` and `codex` CLIs rather than
-replacing them.
+**[AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit)** · scores a site the way an AI
+assistant reads it. Free in the browser, as a
+[Chrome extension](https://chromewebstore.google.com/detail/aeogeo-auditor/bdkkjpbipgolopjhndknigaaokdabnad),
+and over MCP; the engine behind our paid audits.<br>
+<sub>Apache-2.0 · 54-rule engine · 988 tests · [advancelabs.dev/tools](https://advancelabs.dev/tools)</sub>
 
-**Apache-2.0 · macOS, Windows, Linux · no telemetry · early releases, not yet code-signed**
+## Research and upstream
 
----
+**[urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy)** · sim-first
+autonomy for a multirotor, flown through five real OpenStreetMap cities; it infers powerlines
+from the poles carrying them. **[Fly it in your browser](https://drone.advancelabs.dev)**.<br>
+<sub>275 tests · verified against PX4 SITL · Apache-2.0</sub>
 
-## Free subdomains
-
-### [runs-on.dev](https://runs-on.dev) · open source · [registry](https://github.com/zordhalo/runs-on.dev)
-
-Claim `yourname.runs-on.dev` in about twenty seconds with a GitHub account. It's live
-immediately over HTTPS, and you point it at your own hosting with a pull request.
-
-A real TLD means an ICANN application, and the 2026 round wanted $227,000 per application
-before you've run anything. This gets the same custom-ending feel for about $10 a year.
-The public repo is the database, so every claim is a commit anyone can read, and one
-wildcard DNS record covers every name at once. Claiming is a git write, not a DNS write.
-
-Over 1,200 names are claimed so far, each by a different GitHub account, because the limit
-is one name per account and the registry enforces it on the way in.
-
-**AGPL-3.0 · 432 tests · one name per account · not a TLD, and I don't pretend it is**
-
----
-
-## Answer-engine optimization
-
-### [AEO Toolkit](https://github.com/Advance-Labs/aeo-toolkit) · open source
-
-A TypeScript monorepo I built that scores a site the way an AI assistant reads it:
-crawl → parse → score, plus MCP servers and content agents.
-
-Five of the tools run free in the browser at
-[advancelabs.dev/tools](https://advancelabs.dev/tools) with no sign-up: the technical
-SEO and AEO audit, an E-E-A-T scanner, an `llms.txt` generator, a GA4 and GSC chat, and
-a 3D backlink graph. Three hosted MCP servers expose 31 of the tools to any MCP client,
-bring-your-own-key.
-
-**17 packages · 988 passing tests · a 54-rule scoring engine · Apache-2.0**
-
-| Rule family | Count | Measures |
-|---|---|---|
-| AEO | 11 | Entity identity & consistency, `sameAs`, extractable answers, citable proof, FAQ/HowTo structure |
-| E-E-A-T | 14 | Experience, expertise, authoritativeness, trust |
-| Technical SEO | 29 | Crawlability, sitemap coverage & freshness, redirect integrity, canonical validity, structured data, internal linking |
-
-Scores are cross-checked against live answers from ChatGPT, Google AI Overviews,
-Perplexity, and Claude, so the number is a measurement you can re-run after fixes,
-not an opinion. It's also the engine behind the studio's
-[AI-visibility audits](https://advancelabs.dev/services/aeo-audit).
-
-### [AEO/GEO Auditor](https://chromewebstore.google.com/detail/aeogeo-auditor/bdkkjpbipgolopjhndknigaaokdabnad) · on the Chrome Web Store · [about](https://advancelabs.dev/tools/aeo-auditor)
-
-The same engine on your toolbar. Open any page, click the icon, get a 0–100
-AI-readiness score with a letter grade and a list of what to fix. Export it as a PDF.
-
-It runs 40 of the 54 rules: the 29 technical-SEO and 11 AEO ones. The 14 E-E-A-T
-signals need a whole-site crawl, so they stay in the hosted audit rather than
-pretending to work from one tab.
-
-Nothing leaves the browser. No account, no server, no analytics, no telemetry. The
-only requests it makes are to the audited site's own `robots.txt`, `sitemap.xml`
-and `llms.txt`, which is what the host permission is for.
-
-**Free · Apache-2.0 · 40 checks across 9 categories · client-side, so nothing to trust me about**
-
----
-
-## Autonomous flight
-
-### [urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy) · open source · ✈︎ [fly it in your browser](https://drone.advancelabs.dev)
-
-Sim-first autonomy for a small multirotor I built. The stack is pure Python behind a
-`VehicleBackend` seam, so the same mission code runs against a kinematic sim, PX4
-SITL, and a Pixhawk without changing the autonomy layer.
-
-I built five environments from real OpenStreetMap data and put the simulator on the web,
-so you can fly it yourself. Every number below is one the simulator produced, so there's
-no marketing copy to drift out of sync.
-
-**275 tests · no runtime dependencies · verified against PX4 SITL · Apache-2.0**
-
-| Environment | Buildings | Tallest | What it exercises |
-|---|---|---|---|
-| Test grid | 25 | 54 m | Moving traffic, replanning on invalidation |
-| Princess Anne Manor | 308 | 48 m | 5 m AGL, threading under distribution wire |
-| Scarborough | 115 | 125 m | Car and pedestrian as legal keep-out volumes |
-| North York Centre | 182 | 134 m | Surveillance with real occlusion |
-| Downtown Toronto | 161 | **292 m** | Towers exceed the ceiling, so it routes around, not over |
-
-<details>
-<summary><b>Four findings that changed the hardware design</b></summary>
-
-<br>
-
-**Lidar can't see wires affordably.** A 12 mm conductor sits below the angular
-resolution of any lidar in budget, which caps safe speed near powerlines at
-3.5–5.5 m/s.
-
-**But a camera can infer them.** Poles are trivially detectable where wires are not.
-The system detects poles, works out which are connected, and avoids the inferred
-catenary. That gets 100% recall with zero wire detections. Flight geometry matters more than
-the sensor: one forward camera suffices if you fly a lateral sweep first.
-
-**People are a regulatory volume, not an obstacle.** A pedestrian's legal keep-out is
-~100× their body size and asymmetric, because overflight is separately prohibited.
-
-**An inferred map can't thread a corridor.** It needs 7–10 m of standoff to cover its
-own triangulation error, and at 7 m a residential corridor closes entirely. Good enough
-to *avoid* a wire run; threading one needs a survey.
-
-</details>
-
-The airframe is a Holybro X500 V2 with a parametric OpenSCAD payload stack (Pi 5
-tray, payload deck, battery tray, GNSS mast, nav-light pods), designed around a
-low-light STARVIS camera. Transport Canada RPAS rules shape the design more than any
-technical preference does: "autonomous" in Canadian airspace means *pilot-supervised*
-autonomy, with a human able to take control at all times.
-
----
-
-## Contributing upstream
-
-### [Pane](https://github.com/dcouple/Pane) · open source · [runpane.com](https://runpane.com/)
-
-A terminal-first agent IDE for running several coding agents in parallel. I run it every
-day, so the two things I sent upstream are the two that were costing me something.
-
-**[#572](https://github.com/dcouple/Pane/pull/572) — switching panes.** The "Open" launcher
-flashed where the terminal had been on the first visit to every pane, because the stage guard
-read *layout hasn't loaded yet* and *layout doesn't exist* as the same state. Then the terminal
-that arrived sat behind an activation mask held open by two fixed delays that were standing in
-for conditions nobody had written down. Replacing the delays with the conditions themselves,
-and letting the activation backstop repaint instead of destructively resetting when it has
-nothing to repair, took per-pane activation from **675 ms to 332 ms**.
-
-**[#573](https://github.com/dcouple/Pane/pull/573) — renaming panes.** The IPC handler and the
-edit-state handlers already existed and were exported; no component ever rendered them. Adding
-the inline sidebar UI surfaced a pre-existing store bug: a main-repo session is stored twice,
-and `updateSession` returned early after updating the first copy, so the sidebar went stale on
-*any* `session:updated` for that pane, not just renames. Both fixed, with a Playwright test
-that I confirmed fails without the store fix.
-
-**852 lines across two pull requests · timings measured on the real Electron app, not a benchmark**
-
----
-
-## Advance Labs
-
-An independent lab, federally incorporated under the CBCA. We build open-source products
-first (Ninebrains, runs-on.dev and the AEO Toolkit above, all at
-[advancelabs.dev/lab](https://advancelabs.dev/lab)), and sell fixed-price work on the
-expertise that built them.
-
-**Services**
-
-| | |
-|---|---|
-| [AI-Visibility (AEO) Audit](https://advancelabs.dev/services/aeo-audit) | 54-rule site check plus live checks of what the answer engines actually say about you, against your competitors. Fixed price, 3-day turnaround. |
-| [Fixed-Scope Build Sprint](https://advancelabs.dev/services/build-sprint) | A scoped chunk of engineering for a written scope and a fixed price. AI integrations and automations, or conversion-focused Next.js builds. 1–2 weeks. |
-
-**Built with a client**
-
-| | |
-|---|---|
-| BuildCode | AI building-code copilot for Ontario trades. Plain-English answers with the exact cited OBC/OESC section, built with [Kuzyn Builds](https://github.com/Kuzyn-Builds). |
-
-**Client work:** [Kuzyn Builds](https://kuzynbuilds.com) (London, ON custom home
-builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.nextleaf.co/)
-(Toronto printing & embroidery: storefront redesign) · [Smart Fix London](https://www.smartfixlondon.com)
-(London, ON repair shop: AI-discoverability cleanup, in progress). Case studies at
-[advancelabs.dev/work](https://advancelabs.dev/work).
-
----
+**Upstream** · two PRs to [Pane](https://github.com/dcouple/Pane)
+([#572](https://github.com/dcouple/Pane/pull/572), [#573](https://github.com/dcouple/Pane/pull/573)):
+pane activation from 675 ms to 332 ms, plus inline renaming and the store bug behind it.
 
 ## Also in the lab
 
-Real, public, and honest about where it stands. Not what I'd lead with.
+[whoopsie-protocol](https://github.com/zordhalo/whoopsie-protocol) (reverse-engineered WHOOP 4.0 BLE) ·
+[agent-handoff-protocol](https://github.com/zordhalo/agent-handoff-protocol) (move a running agent between hosts) ·
+[quantum-hybrid-research](https://github.com/Advance-Labs/quantum-hybrid-research) (quantum × classical feasibility, 228-test emulator) ·
+[athena-weather-mcp](https://github.com/zordhalo/athena-weather-mcp) ·
+[75-day-tracker](https://github.com/zordhalo/75-day-tracker)
 
-| | |
-|---|---|
-| [Dialed](https://dialed.advancelabs.dev) | Done-for-you AI phone agents for local business: answers the line, books appointments, transfers to a human. Paused while the lab focuses on the open-source products. |
-| [Cartrix](https://www.cartrix.live) | Checkout at scale: parallel multi-account purchase automation for limited-release products. Parked. |
-| [quantum-hybrid-research](https://github.com/Advance-Labs/quantum-hybrid-research) | Three feasibility studies on quantum × classical, including *can quantum accelerate LLM training?*, plus a 228-test emulator. Every claim carries an evidence-class tag, so a proven result and a speculative one never read the same. MIT. Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev). |
+Advance Labs also takes a few fixed-price jobs: [AEO audits and build sprints](https://advancelabs.dev/services),
+with [case studies here](https://advancelabs.dev/work).
 
----
-
-## Things I build on my own time
-
-| | |
-|---|---|
-| [whoopsie-protocol](https://github.com/zordhalo/whoopsie-protocol) | Reverse-engineered the WHOOP 4.0 BLE protocol: documentation and a reference implementation. Paired with a [FastAPI backend](https://github.com/zordhalo/whoopsie-backend) for metrics ingestion, because I wanted my own biometrics out of someone else's app. |
-| [agent-handoff-protocol](https://github.com/zordhalo/agent-handoff-protocol) | Durable agent sessions: serialize, transfer, and meter a running agent's state across compute hosts. MCP server + Neon + Next.js. |
-| [lontario](https://github.com/zordhalo/lontario) | Open-source AI-powered hiring platform. |
-| [athena-weather-mcp](https://github.com/zordhalo/athena-weather-mcp) | An MCP agent that explores weather alerts and forecasts through an embedded interactive widget (NWS + Open-Meteo). |
-| [75-day-tracker](https://github.com/zordhalo/75-day-tracker) | 75 Hard tracker with habit logging, progress visualization, and PWA support. I built it because I was doing the challenge. |
-| [photo-organizer](https://github.com/zordhalo/photo-organizer) | Sorts very large photo libraries into categories. |
-| [linkedln-commits](https://github.com/zordhalo/linkedln-commits) | Tracks LinkedIn activity the way GitHub renders a commit graph. |
-| [beacon-ai](https://github.com/zordhalo/beacon-ai) | AI-therapy application, built for the SambaNova Cloud Devpost hackathon. |
-
----
-
-## ✞
-
-| | |
-|---|---|
-| [code-cross](https://github.com/zordhalo/code-cross) | ✞ *Jesus Christ is Risen* ✠ |
-| [st-PierGiorgioFrassati](https://github.com/zordhalo/st-PierGiorgioFrassati) | On Blessed Pier Giorgio Frassati, made for London's altar servers. |
-
----
-
-## Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PX4](https://img.shields.io/badge/PX4%20%2F%20MAVLink-19A0E0?style=flat-square&logo=drone&logoColor=white)
-![OpenSCAD](https://img.shields.io/badge/OpenSCAD-F9D72C?style=flat-square&logo=openscad&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
----
-
-## Connect
-
-| | |
-|---|---|
-| **Lab** | [advancelabs.dev](https://advancelabs.dev) · [everything we ship](https://advancelabs.dev/lab) |
-| **Hire us** | [advancelabs.dev/services](https://advancelabs.dev/services) |
-| **GitHub org** | [@Advance-Labs](https://github.com/Advance-Labs) |
-| **LinkedIn** | [in/lucaskrawczak](https://www.linkedin.com/in/lucaskrawczak/) |
-| **Reddit** | [u/xzordhalox](https://www.reddit.com/user/xzordhalox) |
-| **X** | [@xzordhalox](https://x.com/xzordhalox) |
-| **Short address** | [zordhalo.is-a.dev](https://zordhalo.is-a.dev) |
+<sub>✞ [code-cross](https://github.com/zordhalo/code-cross) · [Blessed Pier Giorgio Frassati](https://github.com/zordhalo/st-PierGiorgioFrassati), for London's altar servers</sub>
