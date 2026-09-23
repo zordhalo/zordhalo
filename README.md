@@ -1,16 +1,4 @@
-<table>
-<tr>
-<td valign="middle"><pre><sub>⠀⠀⠀⠀⢀⡠⣾⣳⡀⠀⠀⠀⠀⠀
-⠀⠀⡀⠀⠚⢿⣿⣿⡿⠙⠀⠀⠀⠀
-⠀⣘⣿⣇⡀⢘⣿⣿⠀⢀⣠⣶⡀⠀
-⠺⣿⣷⣝⣾⣿⣿⣿⣿⣿⣹⣷⣿⠆
-⠀⠘⠟⠁⠀⠀⣿⣟⠀⠀⠙⠿⠁⠀
-⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢠⣿⣿⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢸⣿⡿⡄⠀⠀⠀⠀⠀
-⠀⠀⠀⠠⣖⣿⣿⣻⡷⡄⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⢻⡟⠁⠀⠀⠀⠀⠀</sub></pre></td>
-<td valign="middle">
+<img src="assets/cross.svg" align="left" width="72" hspace="18" alt="">
 
 ### Lucas Krawczak
 
@@ -23,9 +11,7 @@ actually use. *We build shit until it works.*
 [![X](https://img.shields.io/badge/@xzordhalox-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/xzordhalox)
 [![Reddit](https://img.shields.io/badge/u%2Fxzordhalox-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/xzordhalox)
 
-</td>
-</tr>
-</table>
+<br clear="left">
 
 ## What I'm building
 
