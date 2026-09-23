@@ -13,7 +13,7 @@
 
 # Lucas Krawczak
 
-**Founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, a Canadian software studio. My brother [@SpookYlonMuh](https://github.com/SpookYlonMuh) heads game development.
+**Founder & Engineer @ [Advance Labs Inc.](https://advancelabs.dev)**, an independent lab in Ontario building open-source software for the agent era. My brother [@SpookYlonMuh](https://github.com/SpookYlonMuh) heads game development.
 
 *We build shit until it works.*
 
@@ -21,6 +21,24 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucaskrawczak/)
 [![Reddit](https://img.shields.io/badge/u%2Fxzordhalox-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/xzordhalox)
 [![X](https://img.shields.io/badge/@xzordhalox-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/xzordhalox)
+
+---
+
+## Parallel coding agents
+
+### [Ninebrains](https://github.com/Advance-Labs/ninebrains) · open source · [ninebrains.runs-on.dev](https://ninebrains.runs-on.dev)
+
+A desktop app for running several Claude Code and Codex agents at once. Every agent gets a
+lane of its own (its own git worktree, branch, terminal, editor and browser), so four of
+them can work one repository without stepping on each other's files. A central Brain holds
+the plan as a graph of jobs and hands ready work to whichever lane is idle.
+
+Nothing counts as done on an agent's say-so: verification gates (tests, a screenshot check,
+a read-only reviewer) run first, and a failed gate sends the lane back with feedback. It's
+a fork of Emdash, and it runs your own logged-in `claude` and `codex` CLIs rather than
+replacing them.
+
+**Apache-2.0 · macOS, Windows, Linux · no telemetry · early releases, not yet code-signed**
 
 ---
 
@@ -36,10 +54,10 @@ before you've run anything. This gets the same custom-ending feel for about $10 
 The public repo is the database, so every claim is a commit anyone can read, and one
 wildcard DNS record covers every name at once. Claiming is a git write, not a DNS write.
 
-572 names are claimed so far, by 572 distinct GitHub accounts, because the limit is one
-name per account and the registry enforces it on the way in.
+Over 1,200 names are claimed so far, each by a different GitHub account, because the limit
+is one name per account and the registry enforces it on the way in.
 
-**AGPL-3.0 · 313 tests · one name per account · not a TLD, and I don't pretend it is**
+**AGPL-3.0 · 432 tests · one name per account · not a TLD, and I don't pretend it is**
 
 ---
 
@@ -53,7 +71,8 @@ crawl → parse → score, plus MCP servers and content agents.
 Five of the tools run free in the browser at
 [advancelabs.dev/tools](https://advancelabs.dev/tools) with no sign-up: the technical
 SEO and AEO audit, an E-E-A-T scanner, an `llms.txt` generator, a GA4 and GSC chat, and
-a 3D backlink graph.
+a 3D backlink graph. Three hosted MCP servers expose 31 of the tools to any MCP client,
+bring-your-own-key.
 
 **17 packages · 988 passing tests · a 54-rule scoring engine · Apache-2.0**
 
@@ -166,8 +185,10 @@ that I confirmed fails without the store fix.
 
 ## Advance Labs
 
-An independent Canadian software studio, federally incorporated under the CBCA.
-We build and ship our own products, and take on fixed-scope client work.
+An independent lab, federally incorporated under the CBCA. We build open-source products
+first (Ninebrains, runs-on.dev and the AEO Toolkit above, all at
+[advancelabs.dev/lab](https://advancelabs.dev/lab)), and sell fixed-price work on the
+expertise that built them.
 
 **Services**
 
@@ -176,17 +197,16 @@ We build and ship our own products, and take on fixed-scope client work.
 | [AI-Visibility (AEO) Audit](https://advancelabs.dev/services/aeo-audit) | 54-rule site check plus live checks of what the answer engines actually say about you, against your competitors. Fixed price, 3-day turnaround. |
 | [Fixed-Scope Build Sprint](https://advancelabs.dev/services/build-sprint) | A scoped chunk of engineering for a written scope and a fixed price. AI integrations and automations, or conversion-focused Next.js builds. 1–2 weeks. |
 
-**Products**
+**Built with a client**
 
 | | |
 |---|---|
-| [Dialed](https://dialed.advancelabs.dev) | Done-for-you AI phone agents for local business. Answers the line 24/7, handles questions, books appointments, transfers to a human. Live demo line on the site. |
-| [Cartrix](https://www.cartrix.live) | Checkout at scale: parallel multi-account purchase automation for limited-release products. |
 | BuildCode | AI building-code copilot for Ontario trades. Plain-English answers with the exact cited OBC/OESC section, built with [Kuzyn Builds](https://github.com/Kuzyn-Builds). |
 
 **Client work:** [Kuzyn Builds](https://kuzynbuilds.com) (London, ON custom home
 builder: site build + local AI-search setup) · [Next Leaf Prints](https://www.nextleaf.co/)
-(Toronto printing & embroidery: storefront redesign). Case studies at
+(Toronto printing & embroidery: storefront redesign) · [Smart Fix London](https://www.smartfixlondon.com)
+(London, ON repair shop: AI-discoverability cleanup, in progress). Case studies at
 [advancelabs.dev/work](https://advancelabs.dev/work).
 
 ---
@@ -197,6 +217,8 @@ Real, public, and honest about where it stands. Not what I'd lead with.
 
 | | |
 |---|---|
+| [Dialed](https://dialed.advancelabs.dev) | Done-for-you AI phone agents for local business: answers the line, books appointments, transfers to a human. Paused while the lab focuses on the open-source products. |
+| [Cartrix](https://www.cartrix.live) | Checkout at scale: parallel multi-account purchase automation for limited-release products. Parked. |
 | [quantum-hybrid-research](https://github.com/Advance-Labs/quantum-hybrid-research) | Three feasibility studies on quantum × classical, including *can quantum accelerate LLM training?*, plus a 228-test emulator. Every claim carries an evidence-class tag, so a proven result and a speculative one never read the same. MIT. Written up at [quantum.advancelabs.dev](https://quantum.advancelabs.dev). |
 
 ---
@@ -245,7 +267,7 @@ Real, public, and honest about where it stands. Not what I'd lead with.
 
 | | |
 |---|---|
-| **Studio** | [advancelabs.dev](https://advancelabs.dev) |
+| **Lab** | [advancelabs.dev](https://advancelabs.dev) · [everything we ship](https://advancelabs.dev/lab) |
 | **Hire us** | [advancelabs.dev/services](https://advancelabs.dev/services) |
 | **GitHub org** | [@Advance-Labs](https://github.com/Advance-Labs) |
 | **LinkedIn** | [in/lucaskrawczak](https://www.linkedin.com/in/lucaskrawczak/) |
