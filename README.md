@@ -36,7 +36,7 @@ and over MCP; the engine behind our paid audits.<br>
 **[urban-drone-autonomy](https://github.com/Advance-Labs/urban-drone-autonomy)** · sim-first
 autonomy for a multirotor, flown through five real OpenStreetMap cities; it infers powerlines
 from the poles carrying them. **[Fly it in your browser](https://drone.advancelabs.dev)**.<br>
-<sub>275 tests · verified against PX4 SITL · Apache-2.0</sub>
+<sub>275 tests · first PX4 SITL flight done, full missions next · Apache-2.0</sub>
 
 **Upstream** · two PRs to [Pane](https://github.com/dcouple/Pane)
 ([#572](https://github.com/dcouple/Pane/pull/572), [#573](https://github.com/dcouple/Pane/pull/573)):
