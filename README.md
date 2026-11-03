@@ -10,6 +10,7 @@ actually use. *We build shit until it works.*
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucaskrawczak/)
 [![X](https://img.shields.io/badge/@xzordhalox-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/xzordhalox)
 [![Reddit](https://img.shields.io/badge/u%2Fxzordhalox-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/xzordhalox)
+[![MCP servers live](https://whobuildsagents.com/badge/advancelabs.dev.svg)](https://whobuildsagents.com/advancelabs.dev)
 
 <br clear="left">
 
